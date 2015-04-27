@@ -1,3 +1,7 @@
+# ----Requirements----
+# grab
+# pycurl
+# lxml
 def write_to_file(file, exchange_rate):
 	import datetime
 	with open(file, mode = 'a+') as file_for_write: 
